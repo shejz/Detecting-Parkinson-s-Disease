@@ -11,7 +11,7 @@ It’s also interesting to note that the Random Forest trained on the spiral dat
 
 ### What is Parkinson’s disease?
 
-![]()
+![](https://github.com/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/parkinson_disease.jpg)
 
 Parkinson’s disease is a nervous system disorder that affects movement. The disease is progressive and is marked by five different stages:
 
@@ -27,7 +27,7 @@ The variation in visual appearance will enable us to train a computer vision + m
 
 ### The spiral and wave dataset
 
-![]()
+![](https://github.com/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/spiral-wave%20dataset.jpg)
 
 The dataset we’ll be using here today was curated by Adriano de Oliveira Andrade and Joao Paulo Folado from the [NIATS of Federal University of Uberlândia](http://www.niats.feelt.ufu.br/en/node/81).
 
