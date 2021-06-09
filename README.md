@@ -2,13 +2,6 @@
 
 Detect Parkinson’s disease in geometric drawings (specifically spirals and waves) using OpenCV and computer vision. We utilized the Histogram of Oriented Gradients image descriptor to quantify each of the input images.
 
-After extracting features from the input images we trained a Random Forest classifier with 100 total decision trees in the forest, obtaining:
-
-**83.33%** accuracy for spiral
-**71.33%** accuracy for the wave
-
-It’s also interesting to note that the Random Forest trained on the spiral dataset obtained 76.00% sensitivity, meaning that the model was capable of predicting a true positive (i.e., “Yes, the patient has Parkinson’s”) nearly 76% of the time.
-
 ### What is Parkinson’s disease?
 
 ![](https://github.com/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/parkinson_disease.jpg)
@@ -41,3 +34,10 @@ The dataset itself consists of 204 images and is pre-split into a training set a
 Using Python, OpenCV, and machine learning (Random Forests), we have classified Parkinson’s patients using their hand-drawn spirals with 83.33% accuracy.
 
 ![](https://github.com/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/output.png)
+
+After extracting features from the input images we trained a Random Forest classifier with 100 total decision trees in the forest, obtaining:
+
+**83.33%** accuracy for spiral
+**73.33%** accuracy for the wave
+
+It’s also interesting to note that the Random Forest trained on the spiral dataset obtained 76.00% sensitivity, meaning that the model was capable of predicting a true positive (i.e., “Yes, the patient has Parkinson’s”) nearly 76% of the time.
