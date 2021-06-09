@@ -35,3 +35,9 @@ The dataset itself consists of 204 images and is pre-split into a training set a
 
 - **Spiral**: 102 images, 72 training, and 30 testing
 - **Wave**: 102 images, 72 training, and 30 testing
+
+### Training the Parkinson’s detector model
+
+Using Python, OpenCV, and machine learning (Random Forests), we have classified Parkinson’s patients using their hand-drawn spirals with 83.33% accuracy.
+
+![](https://github.com/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/output.png)
