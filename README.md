@@ -36,8 +36,8 @@ Using Python, OpenCV, and machine learning (Random Forests), we have classified 
 
 After extracting features from the input images we trained a Random Forest classifier with 100 total decision trees in the forest, obtaining:
 
-- **83.33%** accuracy for spiral  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/detect_parkinsons_spiral.ipynb)
+- **83.33%** accuracy for spiral  [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/detect_parkinsons_spiral.ipynb)
 
-- **73.33%** accuracy for the wave  [![Nbviewer](https://github.com/jupyter/design/blob/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/detect_parkinsons_wave.ipynb)
+- **73.33%** accuracy for the wave  [![Nbviewer](https://github.com/jupyter/design/blob/main/logos/Badges/nbviewer_badge.svg)](https://nbviewer.jupyter.org/github/shejz/Detecting-Parkinson-s-Disease/blob/main/Detecting%20Parkinson%E2%80%99s%20Disease/detect_parkinsons_wave.ipynb)
 
 It’s also interesting to note that the Random Forest trained on the spiral dataset obtained 76.00% sensitivity, meaning that the model was capable of predicting a true positive (i.e., “Yes, the patient has Parkinson’s”) nearly 76% of the time.
